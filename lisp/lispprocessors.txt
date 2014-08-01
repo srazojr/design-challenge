@@ -1,0 +1,59 @@
+LISP processors
+need intro... MIT CONS machine, then CADR ... 
+Richard Greenblatt: The LISP Machine. November 1974 
+Tom Knight: CONS. November 1974 
+F. Knight, Jr., David A. Moon, Jack Holloway and Guy L. Steele, Jr.: CADR, May 1979 
+
+
+
+--------------------------------------------------------------------------------
+
+Symbolics 
+
+
+LM-2, 1980 - repackaged MIT CADR 
+L-machine (3600), 1982 - Tom Knight, Bruce Edwards, Chris Terman 
+G-machine, 1984 - 3600 architecture in gate arrays 
+I-machine (Ivory), 1987 - single-chip processor, also used as a coprocessor by others 
+
+
+--------------------------------------------------------------------------------
+
+LISP Machines, Inc. (LMI) 
+
+
+LMI-CADR, 1980 - same as the MIT CADR 
+LMI-LAMBDA, 1983 - CADR combined with a 68010 
+K-machine, 1986 - Bruce Deffenbaugh, Joe Marshall, Robert Powell, and Simon Willison 
+new design, not descended from CADR 
+hardware implementation by Robert Powell, Bruce Deffenbaugh, and Kent Hoult 
+
+
+--------------------------------------------------------------------------------
+
+Texas Instruments 
+
+
+Explorer, 1983 - Keith Diefendorff 
+Explorer-II, 1987 - Keith Diefendorff 
+
+
+
+--------------------------------------------------------------------------------
+
+Xerox 
+
+
+1185 / 1186, 1985 - based on D-series (see Xerox entry in workstation processor section) 
+
+
+
+
+
+
+
+
+
+
+http://www.ugcs.caltech.edu/~weel/lispm.php
+http://www.unlambda.com/cadr/

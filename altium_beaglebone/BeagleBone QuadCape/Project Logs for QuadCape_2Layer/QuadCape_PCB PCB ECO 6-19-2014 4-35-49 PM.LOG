@@ -1,0 +1,88 @@
+Change Component DesignItemId : Designator=J1 Old DesignItemId= New DesignItemId=PEC03DAAN
+Change Component DesignItemId : Designator=J3 Old DesignItemId= New DesignItemId=PEC03DAAN
+Change Component DesignItemId : Designator=J2 Old DesignItemId= New DesignItemId=TSW-120-07-G-D
+Change Component DesignItemId : Designator=J4 Old DesignItemId= New DesignItemId=TSW-120-07-G-D
+Change Component Description : Designator=J1 Old Description= New Description=Header, 100mil, 3x2, Tin, TH
+Change Component Description : Designator=J3 Old Description= New Description=Header, 100mil, 3x2, Tin, TH
+Change Component Description : Designator=J2 Old Description= New Description=Header, 100mil, 20x2, Gold, TH
+Change Component Description : Designator=J4 Old Description= New Description=Header, 100mil, 20x2, Gold, TH
+Change Component Library : Designator=J1 Old Library= New Library=Connectors.IntLib
+Change Component Library : Designator=J2 Old Library= New Library=Connectors.IntLib
+Change Component Library : Designator=J3 Old Library= New Library=Connectors.IntLib
+Change Component Library : Designator=J4 Old Library= New Library=Connectors.IntLib
+Added Component: Designator=D1(LTST-C170TBKT_Blue)
+Added Component: Designator=D2(LTST-C170TBKT_Blue)
+Added Component: Designator=D3(LTST-C170TBKT_Blue)
+Added Component: Designator=D4(LTST-C170TBKT_Blue)
+Added Component: Designator=D5(LTST-C170TBKT_Blue)
+Added Component: Designator=D6(LTST-C170TBKT_Blue)
+Added Component: Designator=D7(LTST-C170TBKT_Blue)
+Added Component: Designator=D8(LTST-C170TBKT_Blue)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Component: Designator=Q?(SOT-523)
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=Q?-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=Q?-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=Q?-2
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD4_1 Pin=Q?-2
+Added Net: Name=NetD4_1
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=Q?-2
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=Q?-2
+Added Net: Name=NetD6_1
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetD7_1 Pin=Q?-2
+Added Net: Name=NetD7_1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=Q?-2
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_2 Pin=Q?-1
+Added Net: Name=NetJ4_2
+Added Pin To Net: NetName=NetJ4_4 Pin=J4-4
+Added Pin To Net: NetName=NetJ4_4 Pin=Q?-1
+Added Net: Name=NetJ4_4
+Added Pin To Net: NetName=NetJ4_6 Pin=J4-6
+Added Pin To Net: NetName=NetJ4_6 Pin=Q?-1
+Added Net: Name=NetJ4_6
+Added Pin To Net: NetName=NetJ4_8 Pin=J4-8
+Added Pin To Net: NetName=NetJ4_8 Pin=Q?-1
+Added Net: Name=NetJ4_8
+Added Pin To Net: NetName=NetJ4_10 Pin=J4-10
+Added Pin To Net: NetName=NetJ4_10 Pin=J4-16
+Added Pin To Net: NetName=NetJ4_10 Pin=Q?-1
+Added Pin To Net: NetName=NetJ4_10 Pin=Q?-1
+Added Net: Name=NetJ4_10
+Added Pin To Net: NetName=NetJ4_12 Pin=J4-12
+Added Pin To Net: NetName=NetJ4_12 Pin=Q?-1
+Added Net: Name=NetJ4_12
+Added Pin To Net: NetName=NetJ4_14 Pin=J4-14
+Added Pin To Net: NetName=NetJ4_14 Pin=Q?-1
+Added Net: Name=NetJ4_14
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D1 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D2 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D3 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D4 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D5 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D6 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D7 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component D8 LTST-C170TBKT
+Added Member To Class: ClassName=QuadCape_SCH Member=Component J1 Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component J2 Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component J3 Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component J4 Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component Q? MMBT3904T-7-F

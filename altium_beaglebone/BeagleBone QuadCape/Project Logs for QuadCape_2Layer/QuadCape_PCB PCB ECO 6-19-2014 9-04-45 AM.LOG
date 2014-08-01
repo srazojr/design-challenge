@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC Pin=J1-1
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Member From Class: ClassName=QuadCape_SCH Member=J1
+Removed Member From Class: ClassName=QuadCape_SCH Member=J2

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VCC Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Member From Class: ClassName=QuadCape_SCH Member=C1
+Change Component Designator: OldDesignator=5v NewDesignator=TP1
+Change Component Designator: OldDesignator=GND NewDesignator=TP2

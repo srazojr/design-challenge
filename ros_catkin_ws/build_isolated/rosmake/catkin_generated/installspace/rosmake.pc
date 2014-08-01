@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ros_catkin_ws/install_isolated
+
+Name: rosmake
+Description: Description of rosmake
+Version: 1.11.4
+Cflags: 
+Libs: -L/home/ubuntu/ros_catkin_ws/install_isolated/lib 
+Requires: 

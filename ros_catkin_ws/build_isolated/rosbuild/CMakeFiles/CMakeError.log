@@ -1,0 +1,54 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec837603374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec837603374.dir/build.make CMakeFiles/cmTryCompileExec837603374.dir/build
+make[1]: Entering directory `/home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec837603374.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec837603374.dir/CheckSymbolExists.c.o   -c /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec837603374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec837603374.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec837603374.dir/CheckSymbolExists.c.o  -o cmTryCompileExec837603374 -rdynamic 
+CMakeFiles/cmTryCompileExec837603374.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec837603374] Error 1
+make: *** [cmTryCompileExec837603374/fast] Error 2
+
+File /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1737206082/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1737206082.dir/build.make CMakeFiles/cmTryCompileExec1737206082.dir/build
+make[1]: Entering directory `/home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1737206082.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1737206082.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1737206082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1737206082.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1737206082.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1737206082 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/ubuntu/ros_catkin_ws/build_isolated/rosbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1737206082] Error 1
+make: *** [cmTryCompileExec1737206082/fast] Error 2
+
+

@@ -1,0 +1,16 @@
+/home/ubuntu/ros_catkin_ws/install_isolated/_setup_util.py
+/home/ubuntu/ros_catkin_ws/install_isolated/env.sh
+/home/ubuntu/ros_catkin_ws/install_isolated/setup.bash
+/home/ubuntu/ros_catkin_ws/install_isolated/setup.sh
+/home/ubuntu/ros_catkin_ws/install_isolated/setup.zsh
+/home/ubuntu/ros_catkin_ws/install_isolated/.rosinstall
+/home/ubuntu/ros_catkin_ws/install_isolated/etc/catkin/profile.d/05.catkin_make.bash
+/home/ubuntu/ros_catkin_ws/install_isolated/etc/catkin/profile.d/05.catkin_make_isolated.bash
+/home/ubuntu/ros_catkin_ws/install_isolated/lib/pkgconfig/roscpp_serialization.pc
+/home/ubuntu/ros_catkin_ws/install_isolated/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake
+/home/ubuntu/ros_catkin_ws/install_isolated/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake
+/home/ubuntu/ros_catkin_ws/install_isolated/share/roscpp_serialization/package.xml
+/home/ubuntu/ros_catkin_ws/install_isolated/lib/libroscpp_serialization.so
+/home/ubuntu/ros_catkin_ws/install_isolated/include/ros/serialization.h
+/home/ubuntu/ros_catkin_ws/install_isolated/include/ros/serialized_message.h
+/home/ubuntu/ros_catkin_ws/install_isolated/include/ros/roscpp_serialization_macros.h

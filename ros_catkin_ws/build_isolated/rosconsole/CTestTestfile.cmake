@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/ubuntu/ros_catkin_ws/src/ros_comm/rosconsole
+# Build directory: /home/ubuntu/ros_catkin_ws/build_isolated/rosconsole
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(_ctest_rosconsole_gtest_rosconsole-utest "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/ubuntu/ros_catkin_ws/install_isolated/share/catkin/cmake/test/run_tests.py" "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-utest.xml" "--return-code" "/home/ubuntu/ros_catkin_ws/devel_isolated/rosconsole/lib/rosconsole/rosconsole-utest --gtest_output=xml:/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-utest.xml")
+ADD_TEST(_ctest_rosconsole_gtest_rosconsole-assertion_test "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/ubuntu/ros_catkin_ws/install_isolated/share/catkin/cmake/test/run_tests.py" "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-assertion_test.xml" "--return-code" "/home/ubuntu/ros_catkin_ws/devel_isolated/rosconsole/lib/rosconsole/rosconsole-assertion_test --gtest_output=xml:/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-assertion_test.xml")
+ADD_TEST(_ctest_rosconsole_gtest_rosconsole-thread_test "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/ubuntu/ros_catkin_ws/install_isolated/share/catkin/cmake/test/run_tests.py" "/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-thread_test.xml" "--return-code" "/home/ubuntu/ros_catkin_ws/devel_isolated/rosconsole/lib/rosconsole/rosconsole-thread_test --gtest_output=xml:/home/ubuntu/ros_catkin_ws/build_isolated/rosconsole/test_results/rosconsole/gtest-rosconsole-thread_test.xml")
+SUBDIRS(gtest)

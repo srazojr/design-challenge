@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=QuadCape_SCH Member=J1
+Removed Member From Class: ClassName=QuadCape_SCH Member=J2
+Removed Member From Class: ClassName=QuadCape_SCH Member=J3
+Removed Member From Class: ClassName=QuadCape_SCH Member=J4
+Added Component: Designator=P8A(TSW-120-07-G-D)
+Added Component: Designator=P8B(SULLINS_PEC03DAAN)
+Added Component: Designator=P9A(TSW-120-07-G-D)
+Added Component: Designator=P9B(SULLINS_PEC03DAAN)
+Added Member To Class: ClassName=QuadCape_SCH Member=Component P8A Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component P8B Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component P9A Comment
+Added Member To Class: ClassName=QuadCape_SCH Member=Component P9B Comment
